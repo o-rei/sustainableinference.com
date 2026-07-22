@@ -1,0 +1,11 @@
+---
+title: "Newsletter"
+listing:
+  contents: newsletter
+  type: table
+  sort: "date desc"
+  categories: false
+---
+
+
+Welcome to the Sustainable Inference Newsletter!

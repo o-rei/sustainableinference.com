@@ -1,0 +1,13 @@
+---
+title: "ArchRouter: a tiny-energy, DIY-friendly privacy router"
+subtitle: "Keep your Internet service provider out of your family's business!"
+date: 2026-07-24
+author: Matthew A. Turner
+---
+
+_Sustainable Inference_ manifests as technology that is not just efficient, but
+designed to be **_tiny-energy_**. This means they use as few resources as
+possible, while still adhering to another of our principles, the right to
+understand the technology you buy, and then repair or upgrade it yourself.
+
+In our new software and hardware offering, [the ArchRouter](/)

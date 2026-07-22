@@ -1,0 +1,35 @@
+// Standard fonts used in GPD/STS websites
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;500;600;700&family=Source+Code+Pro:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;350;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400;500;600;700&display=swap");
+
+/*-- scss:defaults --*/
+// Colors
+$brand: #0b5a6b;
+// $accent: #...
+// $text: #...
+
+
+// Typography
+$font-sans: Inter, sans-serif;
+$font-serif: "Source Serif 4", serif;
+
+/*-- scss:rules --*/
+
+// Directive for text wrapping photo on left
+.float-left {
+
+  // floating element anchored to the left
+  float: left;
+
+  // give space between bio and foto
+  margin-right: 2.0em;
+
+  // resize automatically
+  display: block;
+  max-width: 200px;
+  width: auto;
+}
+
+

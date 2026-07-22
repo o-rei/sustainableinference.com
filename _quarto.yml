@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "Sustainable Inference"
+  navbar:
+    logo: images/logo.svg
+    left:
+      - href: index.qmd
+        text: Home
+      - href: offerings.qmd
+        text: Offerings
+      - href: newsletter.qmd
+        text: Newsletter
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+      - styles.scss
+    toc: true
+
+
+
