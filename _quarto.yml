@@ -1,17 +1,20 @@
 project:
-  type: website
+  type: book
 
-website:
-  title: "Sustainable Inference"
+book:
+  title: 'Sustainable Inference'
+  subtitle: 'A Guide to Our System and Products'
   navbar:
     logo: images/logo.svg
     left:
       - href: index.qmd
         text: Home
-      - href: offerings.qmd
-        text: Offerings
-      - href: newsletter.qmd
-        text: Newsletter
+      # - href: guidebook.qmd
+      #   text: Guidebook
+      # - href: Store
+      #   text: store.qmd
+      # - href: newsletter.qmd
+        # text: Newsletter
 
 format:
   html:
