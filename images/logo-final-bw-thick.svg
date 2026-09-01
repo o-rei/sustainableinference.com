@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1000"
+   height="1000"
+   viewBox="0 0 264.58333 264.58333"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="logo-final-bw-thick.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.50210793"
+     inkscape:rotation="1"
+     inkscape:cx="335.8711"
+     inkscape:cy="526.97249"
+     inkscape:window-width="1322"
+     inkscape:window-height="832"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="false">
+    <sodipodi:guide
+       position="132.47468,125.16079"
+       orientation="1,0"
+       id="guide9"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="209.52198,25.26756"
+       orientation="0,-1"
+       id="guide10"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Hexagons &amp; Background">
+    <path
+       sodipodi:type="star"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:4.25506303;stroke-dasharray:none"
+       id="path1"
+       inkscape:flatsided="true"
+       sodipodi:sides="6"
+       sodipodi:cx="37.615322"
+       sodipodi:cy="72.058495"
+       sodipodi:r1="72.703995"
+       sodipodi:r2="62.963509"
+       sodipodi:arg1="1.553343"
+       sodipodi:arg2="2.0769418"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 38.884184,144.75142 -24.704164,109.50382 -25.973026,36.810901 36.34646,-0.63442697 99.934808,34.613167 101.20367,107.30609 Z"
+       transform="matrix(2.0038338,0.03795538,-0.03352511,1.7359409,59.332579,5.7746733)"
+       inkscape:label="Foundation" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="GreenQuads"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <path
+       style="fill:#85e5cd;fill-opacity:0.871324;stroke:none;stroke-width:2.64583;stroke-dasharray:none"
+       d="M 132.16477,7.4541181 7.2239012,69.58034 7.6092916,194.19667 133.50926,140.92404 Z"
+       id="path8"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#5dda87;fill-opacity:1;stroke:none;stroke-width:2.6679;stroke-dasharray:none"
+       d="m 132.1787,7.4468433 125.22342,62.9038627 0.014,125.093284 -124.00862,-54.4739 z"
+       id="path9"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#48ed75;fill-opacity:0.346172;stroke:none;stroke-width:2.64583;stroke-dasharray:none"
+       d="M 7.6311292,194.13361 133.3225,257.27839 257.20507,195.32876 133.23065,140.74883 Z"
+       id="path7"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+  <g
+     inkscape:label="Letters"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <g
+       id="g5"
+       inkscape:label="Composition"
+       transform="matrix(0.97041994,0,0,0.97041994,4.805991,5.5749024)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:249.231px;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.351594px;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+         x="49.587708"
+         y="226.33806"
+         id="text3"
+         transform="matrix(0.80358687,-0.34741121,0.20677341,1.1550271,0,0)"
+         inkscape:label="I"><tspan
+           sodipodi:role="line"
+           id="tspan3"
+           style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+           x="49.587708"
+           y="226.33806">I</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:314.945px;font-family:'Source Serif 4 Display';-inkscape-font-specification:'Source Serif 4 Display, Normal';letter-spacing:0.444304px;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.77883;stroke-dasharray:none;stroke-opacity:1"
+         x="-97.21756"
+         y="287.43155"
+         id="text2"
+         transform="matrix(1.5970499,0.0385404,0.6249172,0.64123517,0,0)"
+         inkscape:label="S"><tspan
+           sodipodi:role="line"
+           id="tspan2"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:314.945px;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.77883;stroke-dasharray:none;stroke-opacity:1"
+           x="-97.21756"
+           y="287.43155">S</tspan></text>
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.33066;stroke-dasharray:none"
+         id="rect3"
+         width="17.223873"
+         height="26.444336"
+         x="122.33979"
+         y="110.10138"
+         inkscape:label="Black Main I Overlay" />
+      <rect
+         style="fill:#ffffff;stroke:none;stroke-width:1.30742;stroke-dasharray:none"
+         id="rect4"
+         width="1.0357527"
+         height="27.61694"
+         x="121.37804"
+         y="110.75684"
+         ry="0.025788065"
+         inkscape:label="Left White Mask I Overlay" />
+      <rect
+         style="fill:#ffffff;stroke:none;stroke-width:1.73721;stroke-dasharray:none"
+         id="rect5"
+         width="1.1797742"
+         height="42.807449"
+         x="139.4021"
+         y="98.414993"
+         ry="0.039972611"
+         transform="matrix(0.99977852,0.02104565,0.0011769,0.99999931,0,0)"
+         inkscape:label="Right White Mask I Overlay" />
+    </g>
+  </g>
+</svg>
