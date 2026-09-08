@@ -9,6 +9,10 @@ book:
     left:
       - href: index.qmd
         text: Home
+
+  chapters:
+    - index.qmd
+
       # - href: guidebook.qmd
       #   text: Guidebook
       # - href: Store
