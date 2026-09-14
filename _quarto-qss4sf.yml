@@ -1,0 +1,128 @@
+##
+# _quarto.yml defines how Quarto should process your document, into which
+# formats, and other options.
+#
+# It also defines the structure of the document. See the BOOK OUTLINE below for
+# the specification of the chapters within various `parts` of the book.
+#
+# Author: Matt Turner <matt@mat.phd>
+# Date: 14 June 2026
+#
+
+
+
+########################################
+ ### *** BOOK DEFINITION BEGINS *** ###
+  ####################################
+
+book:
+
+  ########################################
+   ### *** BOOK DATA AND METADATA *** ###
+    ####################################
+
+  title: "Quantitative Social Science for Sustainable Futures"
+  author:
+  - name: Matthew A. Turner
+    orcid: 0000-0001-7421-4552
+  date: today
+  sidebar:
+    logo: images/Cover.png
+
+  navbar:
+    collapse: true
+    # pinned: true
+    search: true
+
+  repo-url: https://github.com/mt-digital/QSS-Book
+  repo-branch: main
+  repo-actions: [edit, issue]
+
+
+  ##########################################
+   ######## *** BOOK OUTLINE *** ##########
+    ######################################
+
+  chapters:
+
+    # The index has the cover and front matter
+    - index.qmd
+    # The preface is a personal note from the author
+    - Preface.qmd
+
+    # A brisk intro; the formalism's new even those with some experience
+    - part: Introduction.qmd
+      chapters:
+      - SustainabilityVibe.qmd
+      - SocialInteraction.qmd
+      - MathematicsI_Learning.qmd
+      - MathematicsII_Influence.qmd
+      - Programming.qmd
+    # Use our system for understanding learning first
+    - part: ApplicationsI_Learning.qmd
+      chapters:
+        - WhyFreedomWins.qmd
+        - StructuralCausesOfInequality.qmd
+        - HowDiversityPromotesAdaptation.qmd
+
+    # Use influence formalism to show that ...
+    - part: ApplicationsII_Influence.qmd
+      chapters:
+        # ...prominent grp polarization studies must be omitted from record...
+        - MeasuringInfluenceMatters_NullFitsMustOmit.qmd
+        # ...but group polarization should occur if extremists more stubborn...
+        - OpinionDynamicsI_GroupPolarizationFromStubbornExtremism.qmd
+        # Last, opinion change works best in small steps bc of path dependence
+        - OpinionDynamicsII_PolarizationPathways.qmd
+
+    # At this point we've done a lot and we get to take stock of our journey
+    - part: Consolidation.qmd
+      chapters:
+        # By completely separating the two interaction types, we learned much
+        - SocialInteractionFramework.qmd
+        # Deduced freedom is best for adaptation & structure constrains learning
+        - LessonsI_Learning.qmd
+        # Generated counterfactuals using simulation to infer dynamics
+        - LessonsII_Influence.qmd
+        # Look how much we've learned: now you go trust your brain, go be weird
+        - Conclusion.qmd
+
+    - References.qmd
+
+
+###########################################
+ ### *** PROJECT DEFINITION *** ###
+  #######################################
+
+project:
+  type: book
+
+bibliography: /home/kirby/library/library.bib
+
+format:
+
+  html:
+
+    toc: true
+    toc-title: "Chapter contents"
+    html-math-method: katex
+
+    theme:
+      light:
+        - theme-light.scss
+        - styles.scss
+
+      dark:
+        - darkly
+        - theme-dark.scss
+        - styles.scss
+
+    fontsize: 1.0em
+    linestretch: 1.2
+
+    number-sections: true
+    number-depth: 3
+
+  pdf: default
+
+

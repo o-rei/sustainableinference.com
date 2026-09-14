@@ -1,0 +1,57 @@
+/*-- scss:defaults --*/
+$link-color: #a3c6e7;
+$body-color: #d0d4d5;
+$code-bg: #222;
+$code-color: #89f692;
+
+
+.normal-form-table td:first-child,
+.normal-form-table th:first-child {
+  border-right-color: white;
+}
+
+.normal-form-table tr.top-border td {
+  border-top-color: white;
+}
+
+.normal-form-table tr.top-border td:first-child {
+  border-top: none;
+}
+
+/* Force line color in dark mode */
+.normal-form-table td:first-child,
+.normal-form-table th:first-child {
+  border-right: 1px solid white !important;
+}
+
+.normal-form-table tr.top-border td {
+  border-top: 1px solid white !important;
+}
+
+.normal-form-table tr.top-border td:first-child {
+  border-top: none !important;
+}
+
+.normal-form-table tr:nth-child(2) td:first-child {
+  border-right: none !important;
+}
+
+.normal-form-table tr:first-child th:first-child {
+  border-right: none !important;
+}
+
+.normal-form-table tr:nth-child(2) th:first-child {
+  border-right: none !important;
+}
+
+$heading-color-dark: #96c6b0;
+
+.content :is(h1, h2, h3, h4, h5, h6) {
+  color: $heading-color-dark !important;
+  font-family: "Fira Sans", system-ui, sans-serif;
+}
+
+.content :is(h2,h3) {
+  font-weight: 200 !important;
+}
+

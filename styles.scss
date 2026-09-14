@@ -1,35 +1,231 @@
-// Standard fonts used in GPD/STS websites
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;500;600;700&family=Source+Code+Pro:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;350;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400;500;600;700&display=swap");
-
-/*-- scss:defaults --*/
-// Colors
-$brand: #0b5a6b;
-// $accent: #...
-// $text: #...
-
-
-// Typography
-$font-sans: Inter, sans-serif;
-$font-serif: "Source Serif 4", serif;
-
 /*-- scss:rules --*/
 
-// Directive for text wrapping photo on left
+/* === Fonts === */
+@import
+url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ojuju:wght@0,300;0,400;0,500;0,600");
+
+/* === Color system === */
+$title-bg: #444;
+$title-fg: #8fb3cc;
+$title-fg: #acc7db;
+$subtitle-fg: #fdfaf6;
+$heading-color: #061842;
+$title-color: #5A9B79;
+$inline-code-purple: #a277ff;
+
+$link-color: #72B6A6;
+
+$navbar-bg: #4a789b;
+$navbar-fg: #ffffff;
+$navbar-hover: #f4d3e1;
+
+$navbar-bg: #222;
+$navbar-fg: #ffffff;
+$navbar-hover: #f4d3e1;
+
+
+// Hide the "Front Matter" title for all-in-one title + copyright + TOC index.qmd
+#fm-placeholder h1  {
+  display: none;
+}
+
+.navbar,
+.navbar.navbar-dark,
+.navbar.navbar-light {
+  background-color: $navbar-bg;
+  font-family: "Source Serif 4", system-ui, sans-serif;
+  font-weight: 300;
+}
+
+.navbar-title:hover {
+  color: $title-color;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-nav .nav-link {
+  color: $navbar-fg;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-nav .nav-link:hover {
+  color: $title-fg;
+}
+
+/* div#quarto-margin-sidebar.sidebar.margin-sidebar ul li a.nav-link.active { */ 
+
+/*   color: $link-color !important; */ 
+/*   border-left: 1.5px solid $link-color; */
+/*   font-weight: 600; */
+/* } */
+div#quarto-margin-sidebar ul li a.nav-link.active {
+
+  color: $link-color !important;
+  border-left: 1.5px solid $link-color;
+  font-weight: 600;
+
+}
+
+.sidebar-menu-container a.sidebar-link.active {
+  color: $link-color;          
+  font-weight: 600;
+}
+
+.sidebar-menu-container a.sidebar-link:hover .menu-text {
+  color: $link-color;          
+}
+
+div#quarto-margin-sidebar ul li a:hover {
+  color: $link-color !important; 
+  border-left: 1.5px solid $link-color;
+}
+
+div#quarto-margin-sidebar div.toc-actions a:hover {
+  color: $link-color !important; 
+  border-left: 0px solid $link-color;
+}
+
+li a.nav-link:hover {
+
+  color: $link-color !important; 
+}
+
+/* Target the link AND any span inside the active link */
+.sidebar-item a.sidebar-link.active,
+.sidebar-item a.sidebar-link.active span {
+  color: $link-color !important;
+}
+
+/* Match Hover state to the same variable */
+.sidebar-item a.sidebar-link:hover,
+.sidebar-item a.sidebar-link:hover span {
+  color: $link-color !important;
+}
+
+.chapter-number::after {
+  content: ".";
+}
+
+
+
+/* === Body content === */
+// section {
+main#quarto-document-content {
+  max-width: 58ch;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Source Serif Pro", serif;
+  font-weight: 400 !important;
+  font-size: 17px;
+  // font-size: 17px;
+  text-align: justify;
+
+  a {
+    color: $link-color;
+  }
+}
+
+#quarto-sidebar > div.sidebar-menu-container {
+  // font-family: "Fira Sans", sans-serif;
+  li { 
+    font-size: 0.85rem; 
+    line-height: 1.3rem; 
+  }
+  
+}
+
+
+span.katex-html {
+  font-family: "Source Serif Pro", "KaTeX_Main", serif;
+  font-size: 1.05em;
+}
+
+
+.content :is(h1, h2, h3, h4, h5, h6) {
+  letter-spacing: 0.02em;
+  color: $heading-color;
+  font-family: "Fira Sans", system-ui, sans-serif;
+  font-weight: 300;
+}
+
+
+.quarto-title-block {
+  // background-color: $navbar-bg;
+  padding: 0.8rem;
+  border-radius: 2px;
+  margin-bottom: 0.5rem;
+  color: #777;
+  text-align: center;
+  background-color: transparent;
+  border-bottom: 1px solid #eee;
+  
+}
+
+
+#title-block-header > div.quarto-title > h1 {
+  color: $title-color;
+  font-family: "Source Serif Pro", serif;
+  font-weight: 600;
+}
+
+.quarto-title-block h1 {
+  color: $title-fg;
+  font-size: 1.95rem;
+  text-align: center;
+}
+
+.quarto-title-block .quarto-title-authors,
+.quarto-title-block .quarto-title-date {
+  color: $subtitle-fg;
+  font-weight: 500;
+}
+
+/* === Inline code === */
+:not(pre) > code {
+  color: $inline-code-purple;
+}
+
+.navbar {
+  min-height: 48px;
+  padding: 0.1rem;
+  height: 48px;
+  line-height: 1;
+  // font-family: "Fira Sans", sans-serif;
+  font-family: "Ojuju", sans-serif;
+  font-weight: 600;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  line-height: 1;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+
+div.quarto-title h1 {
+  font-family: "Source Serif Pro", serif;
+  font-weight: 600;
+}
+
+// #preface-letter {
+//   text-align: left;
+//   max-width: 700px !important;
+// }
+
 .float-left {
-
-  // floating element anchored to the left
   float: left;
+  margin-left: 0.0rem;
+  margin-right: 0.8em;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8em;
+}
 
-  // give space between bio and foto
-  margin-right: 2.0em;
-
-  // resize automatically
-  display: block;
-  max-width: 200px;
-  width: auto;
+#signature {
+  margin-top: 20px;
+  margin-left: 190px;
 }
 
 
